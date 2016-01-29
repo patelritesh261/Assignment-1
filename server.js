@@ -11,6 +11,9 @@ app.get('/', function (req, res, next) {
 app.get('/about', function (req, res) {
     res.sendfile(path.join(__dirname, "Public", "about.html"));
 });
+app.get('/about1', function (req, res) {
+    res.sendfile(path.join(__dirname, "Public", "about1.html"));
+});
 app.listen(port, function () {
     console.log("App Server Started");
 });

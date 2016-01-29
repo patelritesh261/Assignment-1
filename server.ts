@@ -11,6 +11,9 @@ app.get('/',function(req:express.Request,res:express.Response,next:any){
 app.get('/about',function(req:express.Request,res:express.Response){
    res.sendfile(path.join(__dirname,"Public","about.html"));
 });
+app.get('/about1',function(req:express.Request,res:express.Response){
+   res.sendfile(path.join(__dirname,"Public","about1.html"));
+});
 
 
 app.listen(port,function(){

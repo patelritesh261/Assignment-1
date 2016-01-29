@@ -1,0 +1,19 @@
+{
+  "name": "assignment-1",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "patelritesh261 <patelritesh261@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "Scripts/lib",
+    "test",
+    "tests"
+  ]
+}

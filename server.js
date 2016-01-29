@@ -5,7 +5,7 @@ var app = express();
 var port = process.env.port || 3000;
 //main route
 app.get('/', function (req, res, next) {
-    res.sendfile(path.join(__dirname, "Public", "about.html"));
+    res.sendfile(path.join(__dirname, "Public", "index.html"));
 });
 //route for about page
 app.get('/about', function (req, res) {

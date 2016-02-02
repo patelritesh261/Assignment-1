@@ -15,7 +15,7 @@ app.get('/about1',function(req:express.Request,res:express.Response){
    res.sendfile(path.join(__dirname,"Public","about1.html"));
 });
 
-
+app.use('/Content', express.static(__dirname + '/Content'));
 app.listen(port,function(){
     console.log("App Server Started");
 })
